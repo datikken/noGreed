@@ -1,3 +1,9 @@
+.body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
 .navLogo {
     margin-left: 10px;
     margin-top: 10px;
@@ -52,9 +58,13 @@ button {
 
 .page-footer {
     background-color: #1942ab !important;
+    text-align: center;
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
 }
 
-.footer-logo {
-    size: 25px;
-    padding-top: 25px;
+.fab {
+    margin: 10px;
 }
