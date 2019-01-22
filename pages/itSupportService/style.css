@@ -1,0 +1,80 @@
+.body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.navLogo {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.navbar {
+    background-color: #1942ab;
+}
+
+.dropdown-content {
+    background-color: #1942ab !important;
+}
+
+.hero-section {
+    background: url("../../img/Resized95Pittsburgh95201495241.jpeg") 50% no-repeat;
+    background-size: cover;
+    height: 60vh;
+    text-align: center;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.hero-section .hero-section-text {
+    color: #fefefe;
+    text-shadow: 1px 1px 2px #1942ab;
+}
+
+.row {
+    display: 'flex';
+}
+
+button {
+    background-color: #1942ab !important;
+}
+
+.callToAction,
+button {
+    color: #eeeeee;
+    padding-top: 25px;
+}
+
+.page-footer {
+    background-color: #1942ab !important;
+    text-align: center;
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+}
+
+.fab {
+    margin: 10px;
+}
+
+.container {
+    text-align: center;
+}
+
+.itSupportContact {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+.itSupportContact {
+    margin: 25px;
+}

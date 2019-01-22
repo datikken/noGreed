@@ -65,13 +65,16 @@ button {
     margin: 10px;
 }
 
-.sertificatesWrap {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    padding-bottom: 25px;
+.container {
+    text-align: center;
 }
 
-.sertificatesItem {
-    width: 20%;
+.itSupportContact {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+.itSupportContact {
+    margin: 25px;
 }
